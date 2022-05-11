@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.app{
+    width: 100vw;
+    background-color: rgba(254, 218, 218, 0.179);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    align-items: center;
+}
+.sub_app{
+    width: 53vw;
+    display: flex;
+}
+#app_image img{
+    width: 250px;
+    height: 270px;
+}
+.sub_app label{
+    font-family: 'Nunito';
+    color:rgb(95, 95, 95);
+    margin-left: 40px;
+}
+
+
+.sub_app input{
+    margin: 20px 0px;
+}
+.sub_app #form_email{
+padding: 15px ;
+border: 1px solid rgba(116, 116, 116, 0.176);
+text-align: left;
+width: 300px;
+font-size: 17px;
+outline: none;
+}
+
+.sub_app button{
+padding: 15px;
+width: 160px;
+border: none;
+background-color: rgba(255, 0, 17, 0.664);
+color: white;
+border-radius: 5px;
+font-size: 16px;
+font-weight: 500;
+}
+.sub_app h1{
+    font-size: 40px;
+    font-family: 'Nunito';
+    margin: 20px
+}
+.app_form{
+    margin-top: -80px;
+    margin-left: 50px;
+}
+.sub_app h3{
+    font-size: 19px;
+    font-family: 'Nunito';
+    font-weight: 100;
+    color: rgb(95, 95, 95);
+}
+
+.sub_app h6{
+    font-size: 17px;
+    color: rgb(176, 176, 176);
+    font-weight: lighter;
+    font-family: 'Nunito';
+    margin-bottom: 10px;
+}
+.download_store img{
+    width: 140px;
+}
+.download_store{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;flex-wrap: wrap;
+}
+
+@media only screen and (max-width:920px) {
+    .sub_app{
+        flex-direction: column;
+        margin-left: -30px;
+        width: 100vw;
+    }
+    #app_image{
+        display: none;
+    }
+    .sub_app h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .sub_app #form_email{
+        width: 35vw;
+    }
+    
+}

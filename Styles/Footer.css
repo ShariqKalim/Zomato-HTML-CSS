@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+footer{
+width: 70vw;
+display: block;
+margin: auto;
+}
+.top_part{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top_part select{
+    padding: 5px;
+    font-size: 15px;
+    color: gray;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    border: 1px solid rgb(204, 204, 204);
+    margin-left: 30px;
+}
+
+.footer_parts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.footer_parts h3{
+    font-size: 18px;
+    color: gray;
+    font-family: 'Nunito';
+    margin: 10px 0px;
+}
+.footer_parts li{
+    font-size: 17px;
+    color: rgb(123, 123, 123);
+    margin: 5px 0px;
+font-family: 'Nunito';
+cursor: pointer;
+}
+.footer_parts li:hover{
+    color: black;
+}
+.footer_part5 {
+    display: flex;
+    flex-direction: column;
+}
+.footer_part5 img{
+    width: 150px;
+    margin: 10px 0px;
+}
+hr{
+    margin: 40px 0px;
+    background-color: rgba(202, 202, 202, 0.377);
+}
+footer p{
+    color: gray;
+    font-family: 'Nunito';
+    margin: 20px 0px;
+}
+
+@media only screen and (max-width:500px)
+{
+    .top_part{
+        flex-direction: column;
+   
+    }
+    .top_part select{
+        margin-top: 15px;
+    }
+}

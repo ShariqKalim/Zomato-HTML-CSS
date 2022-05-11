@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.other_options{
+    width: 70vw;
+    display: block;
+    margin: auto;
+}
+
+.other_options h1{
+    font-size: 40px;
+    font-family: 'Nunito';
+}
+.other_options h2{
+    font-size: 30px;
+    font-family: 'Nunito';
+    margin: 20px 0px;
+}
+.cusines ul,.resto_types ul,.resto_chains ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cusines ul li,.resto_types ul li, .resto_chains ul li{
+    font-size: 17px;
+    color: rgb(93, 93, 93);
+    font-family: 'Nunito';
+    margin: 5px;
+    cursor: pointer;
+}
+.cusines ul li:hover,.resto_types ul li:hover, .resto_chains ul li:hover{
+    color: black;
+}
+
+.cities_deliver ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cities_deliver ul li{
+    list-style: none;
+   font-size: 17px;
+   font-family: 'Nunito';
+   margin: 20px;
+   color: rgb(93, 93, 93);
+   cursor: pointer;
+}
+.cities_deliver ul li:hover{
+    color: black;
+}
+.cities_deliver ul li:last-child{
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #000;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.localities{
+    width: 70vw;
+    display: block;
+    margin: auto;
+}
+.localities h1{
+    font-size: 40px;
+    font-family: 'Nunito';
+    margin: 25px 0px;
+}
+.localities h1 span{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.locality_boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.locality_box{
+    width: 320px;
+    line-height: 70px;
+    border: 1px solid rgb(203, 201, 201);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Nunito';
+    color: rgb(78, 78, 78);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
